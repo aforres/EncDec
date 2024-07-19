@@ -33,7 +33,7 @@ def run_func():
     key = "Qa23cf542!28&^9856"
     pyAesCrypt.encryptFile("outward_bound.txt", "outward_bound.txt.aes", key)
     
-    file = "outward_bound.txt.aes"
+    file = "/aforres/EncDec/outward_bound.txt.aes"
     localpath = file
     filepath = "/home/alastair/encrypted/" + file
     sftp.put(localpath,filepath)
