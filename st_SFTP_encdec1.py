@@ -1,4 +1,4 @@
-# st_SFTP_double_encryption.py ver:001
+# st_SFTP_encdec1.py ver:001
 # 20240617 alpha aforres@gmail.com
 # 20240707 beta
 # 20240721 ver:1
