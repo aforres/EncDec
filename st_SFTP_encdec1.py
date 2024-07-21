@@ -48,8 +48,8 @@ if uploaded_file is not None:
 #pyAesCrypt.encryptFile("southward_bound.txt", "southward_bound.txt.aes", key)
 # 
 # # Close
-if sftp: sftp.close()
-if transport: transport.close()
+#if sftp: sftp.close()
+#if transport: transport.close()
     
 
     
