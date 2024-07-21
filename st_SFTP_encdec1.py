@@ -32,9 +32,9 @@ if uploaded_file is not None:
     string_data = uploaded_file.getvalue()
     st.write(string_data)
 #uploaded_file = "northward_bound.txt.aes"
-localpath = uploaded_file.name
-filepath = "/home/alastair/encrypted/" + uploaded_file.name
-sftp.put(localpath,filepath)
+#localpath = uploaded_file.name
+#filepath = "/home/alastair/encrypted/" + uploaded_file.name
+#sftp.put(localpath,filepath)
 #
 # Download from pythonanywhere, London, UK to my desktop
 #file2 = "southward_bound.txt"
