@@ -27,14 +27,14 @@ sftp = paramiko.SFTPClient.from_transport(transport)
 
 # Upload from my desktop to pythonanywhere, London, UK
 file1 = "northward_bound.txt.aes"
-localpath = "C:/Users/aforr/Thonny/MM/" +  file1
+localpath = file1
 filepath = "/home/alastair/encrypted/" + file1
 sftp.put(localpath,filepath)
 #
 # Download from pythonanywhere, London, UK to my desktop
 file2 = "southward_bound.txt"
 filepath = "/home/alastair/encrypted/" + file2
-localpath = "C:/Users/aforr/Thonny/MM/" + file2
+localpath = file2
 sftp.get(filepath,localpath)
 
 # Upload from my desktop to pythonanywhere, London, UK
