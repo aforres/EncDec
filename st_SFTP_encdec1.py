@@ -27,7 +27,7 @@ transport.connect(username=username,password=password)
 sftp = paramiko.SFTPClient.from_transport(transport)
 
 # Upload from my desktop to pythonanywhere, London, UK
-uploaded_file = st.file_upload("Choose a file")
+uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
     string_data = uploaded_file.getvalue()
     st.write(string_data)
