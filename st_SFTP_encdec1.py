@@ -23,8 +23,8 @@ password = 'q548*"rBa)kC>6xZ;VPFp-'  #changed 20240628
 
 #pyAesCrypt.encryptFile("/mount/src/northward_bound.txt", "/mount/src/EncDec/northward_bound.txt.aes", key)
 
-transport.connect(username=username,password=password)
-sftp = paramiko.SFTPClient.from_transport(transport)
+#transport.connect(username=username,password=password)
+#sftp = paramiko.SFTPClient.from_transport(transport)
 
 # Upload from my desktop to pythonanywhere, London, UK
 uploaded_file = st.file_uploader("Choose a file")
