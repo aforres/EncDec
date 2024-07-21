@@ -20,7 +20,7 @@ password = 'q548*"rBa)kC>6xZ;VPFp-'  #changed 20240628
 bufferSize = 64 * 1024
 key = "Qa23cf542!28&^9856"
 
-pyAesCrypt.encryptFile("/main/EncDec/northward_bound.txt", "/main/EncDec/northward_bound.txt.aes", key)
+pyAesCrypt.encryptFile("/mount/src/northward_bound.txt", "/mount/src/EncDec/northward_bound.txt.aes", key)
 
 transport.connect(username=username,password=password)
 sftp = paramiko.SFTPClient.from_transport(transport)
